@@ -1,0 +1,37 @@
+# Sample Coding Questions 01 Week 01
+# Ariel Pokutinsky
+
+# 1) Defining Variables:
+# Define an array variable with the following elements 1, 4, 7, 9.
+arr = [1, 4, 7, 9]
+print("Array:", arr)
+
+print()  # spacer
+
+# 2) Order of Operations:
+# Define 4 variables a, b, c, d and give them the values 1, 2, 3, 4.
+a, b, c, d = 1, 2, 3, 4
+
+# Fully-bracketed version of: e = a - b ** c // d + a % c
+# e = (a - ((b ** c) // d)) + (a % c)
+e = a - (b ** c) // d + a % c
+
+print("a, b, c, d =", a, b, c, d)
+print("e =", e)
+
+print()  # spacer
+
+# 3) Formatting:
+# Create a variable called “temperature” with the value 32.6.
+# Then print: “The temperature today is: 32.600 degrees Celsius”
+temperature = 32.6
+print("The temperature today is: {:.3f} degrees Celsius".format(temperature))
+
+print()  # spacer
+
+# 4) Common Functions:
+# Ask the user to input their age, save into userAge.
+# For the user input, add 22.
+# Then print the sentence followed by the value of userAge.
+userAge = int(input("Enter your age: ")) + 22
+print("Now showing the shop items filtered by age:", userAge)
