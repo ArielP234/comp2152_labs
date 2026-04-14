@@ -33,18 +33,9 @@ def severity_summary(findings):
         counts[severity] = counts.get(severity, 0) + 1
 
     return [("HIGH", counts["HIGH"]), ("MEDIUM", counts["MEDIUM"]), ("LOW", counts["LOW"])]
-
-
-def timeline(findings):
-    counts = {}
-
-    for finding in findings:
-        date = finding["date"]
-        counts[date] = counts.get(date, 0) + 1
-
-    return sorted(counts.items())
-
-
+git checkout master
+git merge lab_week13
+git push origin master
 # --- Main (provided) ---
 if __name__ == "__main__":
     print("=" * 60)
