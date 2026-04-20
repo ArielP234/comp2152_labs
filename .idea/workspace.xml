@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="841e5579-b727-49cb-932a-58dc827103f5" name="Changes" comment="" />
+    <list default="true" id="841e5579-b727-49cb-932a-58dc827103f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/COMP2152_Term_Project/ariel_header_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COMP2152_Term_Project/ariel_http_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COMP2152_Term_Project/ariel_port_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +38,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "lab__week13",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Rita Klein/OneDrive/Desktop/comp2152_labs"
   }
 }]]></component>
